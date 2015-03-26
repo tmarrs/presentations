@@ -1,5 +1,5 @@
-JSON at Work: Schema
-====================
+JSON at Work: Schema, Search, and Transform
+===========================================
 
 ## Description
 Most modern Web APIs prefer JSON because of its interoperability. All modern languages have excellent JSON support, but large-scale environments often require more than simple serialization/de-serialization. This tutorial shows how to leverage JSON Schema along with simple tooling to enhance a developer’s workflow to build elegant, powerful, and efficient applications.
@@ -22,5 +22,5 @@ Example code will leverage JavaScript and Node.js.
 
 This session will show practical JSON-based development workflows, tools, and techniques to improve overall application design.
 
-## Session Length 
+## Session Length
 180 minutes

@@ -1,0 +1,5 @@
+Bio
+===
+Tom Marrs is passionate about showing how Web APIs add business value. As a Lead Architect at [LivingSocial](http://corporate.livingsocial.com/), he leverages the enabling architectures and technologies that fuel the growing API Economy – REST and JSON. Tom has led enterprise-class Web API, Mobile, and SOA projects. An avid agilist, Tom is a Certified Scrum Master and enjoys mentoring and coaching project teams.
+
+Tom is currently authoring [__JSON at Work__](https://github.com/tmarrs/json-at-work/blob/master/README.md) for [O’Reilly](http://www.oreilly.com/), and wrote the [Core JSON Refcard for DZone](http://refcardz.dzone.com/refcardz/core-json) (the #1 downloaded Refcard in 2013). In a past life, To co-authored __JBoss at Work__ for O’Reilly. Tom is also a speaker at the [OSCON](http://www.oscon.com), [No Fluff Just Stuff (NFJS)](https://nofluffjuststuff.com/home/main) and [Great Indian Developer Summit (GIDS)](http://www.developermarch.com/developersummit/index.html) conferences.

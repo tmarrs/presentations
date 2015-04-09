@@ -14,9 +14,19 @@ This talk shows how to leverage JSON Schema to define the structure and format o
 * JSON Schema Basics
 * JSON Schema Tooling
 
-Example code will leverage JavaScript and Node.js.
-
+## What Do I Get Out of It?
 This session will show practical JSON-based development workflows, tools, and techniques to improve overall application design.
+
+## Prerequisites
+Prerequisites include:
+* Prior knowledge of JavaScript and familiarity with JSON and Node.js.
+* Familiarity with XML Schema or other schema languages.
+
+## Required Installs
+Before coming to this session, please install the following:
+* [Node.js](https://github.com/tmarrs/json-at-work/blob/master/appendix-a/Appendix-A-README.md#installing-nodejs)
+* [Yeoman](https://github.com/tmarrs/json-at-work/blob/master/appendix-a/Appendix-A-README.md#installing-yeoman)
+* [Yeoman `webapp` generator](https://github.com/tmarrs/json-at-work/blob/master/appendix-a/Appendix-A-README.md#installing-the-webapp-yeoman-generator)
 
 ## Session Length
 90 minutes

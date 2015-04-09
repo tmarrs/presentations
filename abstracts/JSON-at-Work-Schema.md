@@ -15,7 +15,7 @@ This talk shows how to leverage JSON Schema to define the structure and format o
 * JSON Schema Tooling
 
 ## What Do I Get Out of It?
-This session will show practical JSON-based development workflows, tools, and techniques to improve overall application design.
+This session will show practical JSON Schema development workflows, tools, and techniques to improve overall application design.
 
 ## Prerequisites
 Prerequisites include:

@@ -32,10 +32,10 @@ In other cases, a developer may need to convert from other formats to JSON, incl
 * XML
 
 #### JSON to HTML
-Finally, we'll look at Mustache.js to convert JSON to HTML.
+Finally, we'll look at [Mustache.js](https://github.com/janl/mustache.js/) to convert JSON to HTML.
 
 ## What Do I Get Out of It?
-This session will show practical JSON-based development workflows, tools, and techniques to improve overall application design.
+This session will show practical JSON Search and Transform development tools and techniques to improve overall application design.
 
 ## Prerequisites
 Prior knowledge of JavaScript and familiarity with JSON and Node.js.

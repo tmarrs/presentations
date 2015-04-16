@@ -8,7 +8,7 @@ As a Developer or Architect, you're familiar with the basics of the JSON data in
 Since JSON began as a subset of JavaScript, this is where our real journey begins. In our examples, we'll leverage Node.js, scaffold a web application with Yeoman, and invoke a stub RESTful API that contains sample data. That's a lot of moving pieces and parts, so we'll iteratively build on each concept. 
 
 Here's what we'll cover:
-* JavaScript Serialization/De-serialization with ```JSON.stringify()``` and ```JSON.parse()```.
+* JavaScript Serialization/De-serialization with `JSON.stringify()` and `JSON.parse()`.
 * JavaScript Objects and JSON.
 * HTML5 Local/Session Storage and JSON.
 * Building a small JSON-based web application.

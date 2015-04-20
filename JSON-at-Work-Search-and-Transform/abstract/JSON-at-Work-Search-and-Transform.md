@@ -16,14 +16,14 @@ Web APIs aren't always well-designed, and can generate data that is too complex 
 * json:select
 * JPath
 * jaql
+* jq
 
 ### JSON Transform
 Sometimes an API Consumer may need to change the JSON data returned by an API. 
 
 #### JSON to JSON
 There are a couple techniques to modify a JSON document, including:
-* JSON T
-* JSON 2 JSON
+* JSON-T
 * JSON Patch
 
 #### Other Formats to JSON

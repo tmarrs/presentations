@@ -1,0 +1,13 @@
+
+Arrays
+------
+jaql> a = [5, 6, 7];
+jaql> a[1];   // 6
+jaql> a[1:2]; // [6,7]
+
+
+Objects
+-------
+jaql> a = { name : "fred", age : 55, children : ["tom", "anna"] };
+jaql> a.name;        // "fred"
+jaql> a.children[0]; // "tom"

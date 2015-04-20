@@ -1,0 +1,22 @@
+
+In jq-play
+----------
+.airports
+
+.airports[10] 
+
+.airports[10] | { id, IATA, weather }
+
+.airports[10:15] | .[] | { id, IATA, weather } 
+
+
+In curl
+-------
+curl 'http://localhost:5000/airports'
+
+curl 'http://localhost:5000/airports' | jq .[10]
+
+curl 'http://localhost:5000/airports' | jq '.[10] | { id, IATA, weather }'
+
+curl 'http://localhost:5000/airports' | jq '.[10:15] | .[] | { id, IATA, weather }'
+

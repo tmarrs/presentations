@@ -17,8 +17,8 @@ describe('json-pointer', function() {
         //console.log(res.body);
         //var obj = JSON.parse(res.body);
         var obj = JSON.parse(res.body);
-        console.log('\n\n1st Object weather: ');
-        console.log(jp.query(obj, '$[0].weather'));
+        console.log('\n\n1st & 3rd Object weather: ');
+        console.log(jp.query(obj, '$[0,2].weather'));
 
         done();
       });

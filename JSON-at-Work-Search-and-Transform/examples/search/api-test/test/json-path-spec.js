@@ -20,6 +20,8 @@ describe('json-pointer', function() {
         console.log('\n\n1st & 3rd Object weather: ');
         console.log(jp.query(obj, '$[0,2].weather'));
 
+        console.log('\n\nAll Airport Codes: ');
+        console.log(jp.query(obj, '$..IATA'));
         done();
       });
     });

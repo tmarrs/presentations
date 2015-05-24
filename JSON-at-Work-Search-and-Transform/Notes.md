@@ -17,4 +17,4 @@ Notes
 ### JSON Server
 * https://github.com/typicode/json-server
   * npm install -g json-server
-  * json-server ./airport-delays.json
+  * json-server -p 5000 ./airport-delays.json

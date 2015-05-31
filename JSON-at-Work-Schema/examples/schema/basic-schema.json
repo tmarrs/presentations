@@ -1,0 +1,19 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"id": "/",
+	"type": "object",
+	"properties": {
+		"email": {
+			"id": "email",
+			"type": "string"
+		},
+		"firstName": {
+			"id": "firstName",
+			"type": "string"
+		},
+		"lastName": {
+			"id": "lastName",
+			"type": "string"
+		}
+	}
+}

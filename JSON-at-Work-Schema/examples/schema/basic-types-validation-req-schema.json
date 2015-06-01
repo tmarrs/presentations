@@ -10,6 +10,14 @@
     },
     "lastName": {
       "type": "string"
+    },
+    "postedSlides": {
+      "type": "boolean"
+    },
+    "rating": {
+      "type": "number"
     }
-  }
+  },
+  "additionalProperties": false,
+  "required": ["email", "firstName", "lastName", "postedSlides", "rating"]
 }

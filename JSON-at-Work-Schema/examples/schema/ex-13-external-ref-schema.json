@@ -12,7 +12,7 @@
       "type": "string"
     },
     "zip": {
-      "$ref": "#/definitions/US_zipCode"
+      "$ref": "http://github.com/tmarrs/presentations/blob/master/JSON-at-Work-Schema/examples/schema/ex-13-USCommonAddrSchema.json#/definitions/US_zipCode"
     },
     "country": {
       "type": "string"

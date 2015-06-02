@@ -1,30 +1,11 @@
 {
-	"$schema": "http://json-schema.org/draft-04/schema#",
-	"type": "object",
-	"properties": {
-		"line1": {
-			"type": "string"
-		},
-		"city": {
-			"type": "string"
-		},
-		"state": {
-			"type": "string"
-		},
-		"zip": {
-			"$ref": "#/definitions/US_zipCode"
-		},
-		"country": {
-			"type": "string"
-		}
-	},
-	"additionalProperties": false,
-	"required": ["line1", "city", "state", "zip", "country"],
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "http://github.com/tmarrs/presentations/blob/master/JSON-at-Work-Schema/examples/schema/ex-13-USCommonAddrSchema.json",
 
-	"definitions": {
-		"US_zipCode": {
-			"type": "string",
-			"pattern": "^[0-9]{5}(-[0-9]{4})?$"
-		}
-	}
+  "definitions": {
+    "US_zipCode": {
+      "type": "string",
+      "pattern": "^[0-9]{5}(-[0-9]{4})?$"
+    }
+  }
 }

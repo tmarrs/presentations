@@ -27,6 +27,6 @@
 	"additionalProperties": false,
 	"required": ["line1", "city", "state", "zip", "country"],
 	"dependencies": {
-		"contactName": ["businessName"]
+		"businessName": ["contactName"]
 	}
 }

@@ -1,0 +1,69 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"id": "/",
+	"type": "object",
+	"title": "Root schema.",
+	"description": "An explanation about the puropose of this instance described by this schema.",
+	"name": "/",
+	"properties": {
+		"about": {
+			"id": "about",
+			"type": "string",
+			"title": "About schema.",
+			"description": "An explanation about the puropose of this instance described by this schema.",
+			"name": "about"
+		},
+		"email": {
+			"id": "email",
+			"type": "string",
+			"title": "Email schema.",
+			"description": "An explanation about the puropose of this instance described by this schema.",
+			"name": "email"
+		},
+		"firstName": {
+			"id": "firstName",
+			"type": "string",
+			"title": "FirstName schema.",
+			"description": "An explanation about the puropose of this instance described by this schema.",
+			"name": "firstName"
+		},
+		"lastName": {
+			"id": "lastName",
+			"type": "string",
+			"title": "LastName schema.",
+			"description": "An explanation about the puropose of this instance described by this schema.",
+			"name": "lastName"
+		},
+		"tags": {
+			"id": "tags",
+			"type": "array",
+			"title": "Tags schema.",
+			"description": "An explanation about the puropose of this instance described by this schema.",
+			"name": "tags",
+			"items": {
+				"id": "2",
+				"type": "string",
+				"title": "2 schema.",
+				"description": "An explanation about the puropose of this instance described by this schema.",
+				"name": "2"
+			},
+			"additionalItems": false
+		},
+		"company": {
+			"id": "company",
+			"type": "string",
+			"title": "Company schema.",
+			"description": "An explanation about the puropose of this instance described by this schema.",
+			"name": "company"
+		}
+	},
+	"additionalProperties": false,
+	"required": [
+		"about",
+		"email",
+		"firstName",
+		"lastName",
+		"tags",
+		"company"
+	]
+}

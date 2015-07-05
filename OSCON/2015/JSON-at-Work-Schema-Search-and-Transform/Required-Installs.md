@@ -2,10 +2,11 @@ Required Installs
 =================
 Here are the tools and example code to install coming to this session.
 
-Contents
+## Contents
 - [Install Tools](#install-tools)
 - [Install Example Code and Projects](#install-example-code-and-projects)
 - [Find the Example Code and Projects](#find-the-example-code-and-projects)
+
 
 ## Install Tools
 Here are the tools to install:

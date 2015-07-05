@@ -7,7 +7,7 @@ Contents
 - [Install Example Code and Projects](#install-example-code-and-projects)
 - [Find the Example Code and Projects](#find-the-example-code-and-projects)
 
-## Installs
+## Install Tools
 Here are the tools to install:
 * [JSONView in Chrome and/or Firefox](https://github.com/tmarrs/json-at-work/tree/master/appendix-a#installing-jsonview-in-chrome-and-firefox)
 * [JSONPad](https://github.com/tmarrs/json-at-work/tree/master/appendix-a#installing-jsonpad)
@@ -22,7 +22,7 @@ Here are the tools to install:
 * [`jq`](https://github.com/tmarrs/json-at-work/tree/master/appendix-a#installing-jq)
   * [`cURL`](https://github.com/tmarrs/json-at-work/tree/master/appendix-a#installing-curl)
 
-## Example Code and Projects
+## Install Example Code and Projects
 Install the example code as follows:
 
 Use github:

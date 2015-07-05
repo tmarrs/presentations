@@ -3,7 +3,7 @@
 	"type": "object",
 	"properties": {
 		"email": {
-			"$ref": "#/definitions/emailPattern"
+			"$ref": "http://localhost:8081/ex-14-my-common-schema.json#/definitions/emailPattern"
 		},
 		"firstName": {
 			"type": "string"
@@ -13,11 +13,5 @@
 		}
 	},
 	"additionalProperties": false,
-	"required": ["email", "firstName", "lastName"],
-	"definitions": {
-		"emailPattern": {
-			"type": "string",
-			"pattern": "^[\\w|-]+@[\\w|-]+\\.[A-Za-z]{2,4}$"
-		}
-	}
+	"required": ["email", "firstName", "lastName"]
 }

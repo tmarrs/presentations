@@ -3,6 +3,16 @@ Test Project Setup
 Here's how to create the api-test project with Node.
 
 
+## Contents
+- [Create the Project Directory](#create-the-project-directory)
+- [Create the Project with `npm init`](#create-the-project-with-npm-init)
+- [Install Node Modules](#install-node-modules)
+- [Create Test Directory](#create-test-directory)
+- [Write the Tests](#write-the-tests)
+- [Start the Test Server](#start-the-test-server)
+- [Run the Tests](#run-the-tests)
+
+
 ## Create the Project Directory
 First, find a suitable directory for your projects.
 `cd ~/projects`

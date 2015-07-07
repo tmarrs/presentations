@@ -24,4 +24,5 @@ describe('json-pointer', function() {
 			});
 		});
 	});
+
 });

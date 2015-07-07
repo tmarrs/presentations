@@ -1,3 +1,16 @@
+EspressoCON
+===========
+We'll use EspressoCON for our coding projects to develop JSON Schemas.
+EspressoCON is a niche provider of Espresso drinks to software conferences. In addition to Espresso, EspressoCON serves steamers, tea, and hot chocolate. You can also get bagels, muffins, and healthy sandwiches.
+
+## Contents
+- [Drinks](#drinks)
+- [Bagels](#bagels)
+- [Muffins](#muffins)
+- [Breakfast Sandwiches:](#breakfast-sandwiches)
+- [Payment Options](#payment-options)
+
+
 ## Drinks
 * Overall Constraints:
   * No iced drinks
@@ -12,14 +25,14 @@
   * Steamer
   * Hot Chocolate
 
-* Flavors: [FIXME - split out Hot Chocolate]
+* Flavors:
   * Constraints - Espresso, Cappuccino, Latte, Steamer, Hot Chocolate
   * Carmel
-  * Chocolate - makes no sense for Hot Chocolate
+  * Chocolate - makes no sense for Hot Chocolate or Steamer
   * Hazelnut
   * Vanilla
   * Peppermint
-  * White Chocolate - Steamer, but not Hot Chocolate
+  * White Chocolate - makes no sense for Hot Chocolate
 
 * Milk: 
   * Whole
@@ -33,7 +46,7 @@
   * Medium     - 16 oz
   * Large      - 20 oz
   * Exra-Large - 32 oz
-  * Really?    - 64 oz
+  * Bucket     - 64 oz
 
 * Options: 
   * Whipped Cream
@@ -47,7 +60,7 @@
   * Dirty Chai - Chai + an Espresso Shot [Not Allowed - just wrong]
   * Milky Way Latte - Mocha + Carmel Macchiato
   * Why Bother? - Decaf Latte + Small + Skim 
-  * You Are Going To Die - Milky Way Latte + Really? + Breve + Whip + Extra Carmel
+  * You Are Going To Die - Milky Way Latte + Bucket + Breve + Whip + Extra Carmel
 
 * Tea:
   * English Breakfast
@@ -61,13 +74,6 @@
   * Orange Pekoe
   * Peppermint
   * Oolong
-
-
-## Payment Options
-* EspressoCON Card 
-* CoffeeCoin (CC)  350 CC = $1 USD
-* Cash [Never]
-* Credit Card [Never]
 
 
 ## Bagels
@@ -97,3 +103,9 @@
 * Constraints: Served between 6 - 10 AM
 * Egg and Cheese
 * Turkey Bacon, Egg, and Cheese
+
+
+## Payment Options
+* EspressoCON Card 
+* Cash [Never]
+* Credit Card [Never]

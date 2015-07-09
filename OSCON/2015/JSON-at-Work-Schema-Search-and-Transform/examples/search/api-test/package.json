@@ -14,6 +14,7 @@
   "author": "Me",
   "license": "ISC",
   "dependencies": {
+    "JSONSelect": "^0.4.0",
     "chai": "^3.0.0",
     "json-pointer": "^0.3.0",
     "jsonpath": "^0.1.8",

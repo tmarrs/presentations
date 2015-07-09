@@ -1,8 +1,9 @@
+
 var expect = require('chai').expect;
 var request = require('request');
-var jp = require('jsonpath');
+var jsonSelect = require('JSONSelect');
 
-describe('jsonpath', function() {
+describe('JSONSelect', function() {
 	describe('api', function() {
 		it('should return 200', function(done) {
 			var options = {
@@ -13,13 +14,13 @@ describe('jsonpath', function() {
 			};
 			request.get(options, function(err, res, body) {
 				expect(res.statusCode).to.equal(200);
-				console.log('\n\n\n\nJSONPath Test');
+				console.log('\n\n\n\nJSONSelect Test');
 				var obj = JSON.parse(res.body);
-				console.log('\n\n1st & 3rd Object weather: ');
-				console.log(jp.query(obj, '$[0,2].weather'));
+				console.log('\n\n1st & 2nd Object weather: ');
+        console.log(jsonSelect.match('.status ~ .weather', obj).slice(0,2));
 
 				console.log('\n\nAll Airport Codes: ');
-				console.log(jp.query(obj, '$..IATA'));
+				console.log(jsonSelect.match('.IATA', obj));
 				done();
 			});
 		});

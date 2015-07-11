@@ -18,7 +18,6 @@ describe('JSONSelect', function() {
 				var obj = JSON.parse(res.body);
 				console.log('\n\n1st & 2nd Object weather: ');
         console.log(jsonSelect.match('.status ~ .weather', obj).slice(0,2));
-
 				console.log('\n\nAll Airport Codes: ');
 				console.log(jsonSelect.match('.IATA', obj));
 				done();
@@ -26,3 +25,4 @@ describe('JSONSelect', function() {
 		});
 	});
 });
+

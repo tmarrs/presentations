@@ -1,6 +1,6 @@
 EspressoCON
 ===========
-EspressoCON is a niche provider of Espresso drinks to software conferences. In addition to Espresso, EspressoCON serves steamers, tea, and hot chocolate. You can also get [bagels](#bagels), [muffins](#muffins), and healthy [breakfast sandwiches](#breakfast-sandwiches).
+EspressoCON is a niche provider of Espresso [drinks](#drinks) at software conferences. In addition to Espresso, EspressoCON serves steamers, tea, and hot chocolate. You can also get [bagels](#bagels), [muffins](#muffins), and healthy [breakfast sandwiches](#breakfast-sandwiches).
 
 We'll use EspressoCON for our coding projects to develop JSON Schemas, and work with JSON Search and Transform.
 

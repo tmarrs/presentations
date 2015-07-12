@@ -14,13 +14,15 @@ describe('json-patch', function() {
 	describe('run', function() {
 		it('should patch JSON', function(done) {
 			var jsonFile = './data/speaker.json';
-			var input = jsonfile.readFileSync(jsonFile);
-			console.log(input);
-			console.log('\n\n\n\JSONPatch Test');
-			var output = jsonpatch.apply(input, template);
-			console.log('\n\n\n\Patch JSON');
-			console.log(JSON.stringify(output));
-			done();
+      
+      jsonfile.readFile(jsonFile, function(err, obj) {
+        console.log(obj);
+        console.log('\n\n\n\JSONPatch Test');
+  			var output = jsonpatch.apply(obj, template);
+  			console.log('\n\n\n\Patch JSON');
+  			console.log(JSON.stringify(output));
+  			done();
+      });
 		});
 	});
 });

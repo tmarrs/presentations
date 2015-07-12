@@ -20,13 +20,15 @@ describe('jsonapter', function() {
 	describe('run', function() {
 		it('should transform JSON', function(done) {
 			var jsonFile = './data/speaker.json';
-			var input = jsonfile.readFileSync(jsonFile);
-			console.log(input);
-			console.log('\n\n\n\jsonapter Test');
-			var output = j2j.run(template, input);
-			console.log('\n\n\n\Tranformed JSON');
-			console.log(JSON.stringify(output));
-			done();
+			
+			jsonfile.readFile(jsonFile, function(err, obj) {
+				console.log(obj);
+				console.log('\n\n\n\jsonapter Test');
+				var output = j2j.run(template, obj);
+				console.log('\n\n\n\Tranformed JSON');
+				console.log(JSON.stringify(output));
+				done();
+			});
 		});
 	});
 });

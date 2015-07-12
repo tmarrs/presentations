@@ -14,9 +14,11 @@
   "license": "ISC",
   "dependencies": {
     "chai": "^3.0.0",
+    "fs": "0.0.2",
     "json-patch": "^0.5.0",
     "jsonapter": "0.0.1",
     "jsonfile": "^2.2.1",
+    "jxon": "^1.4.0",
     "mocha": "^2.2.5"
   }
 }

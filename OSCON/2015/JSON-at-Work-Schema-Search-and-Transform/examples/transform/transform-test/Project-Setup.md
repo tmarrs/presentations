@@ -80,6 +80,8 @@ npm install chai --save
 npm install jsonfile --save
 npm install json-patch --save
 npm install jsonapter --save 
+npm install fs --save 
+npm install jxon --save 
 ```
 
 ## Create Test Directory

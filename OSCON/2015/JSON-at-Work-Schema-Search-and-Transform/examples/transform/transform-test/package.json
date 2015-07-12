@@ -1,0 +1,22 @@
+{
+  "name": "transform-test",
+  "version": "1.0.0",
+  "description": "JSON Transform tests.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "keywords": [
+    "JSON",
+    "Transform"
+  ],
+  "author": "Me",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^3.0.0",
+    "json-patch": "^0.5.0",
+    "jsonapter": "0.0.1",
+    "jsonfile": "^2.2.1",
+    "mocha": "^2.2.5"
+  }
+}

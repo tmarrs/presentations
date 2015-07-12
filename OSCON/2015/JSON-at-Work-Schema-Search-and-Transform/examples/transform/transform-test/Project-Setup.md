@@ -1,6 +1,6 @@
 Test Project Setup
 ==================
-Here's how to create the search-test project with Node.
+Here's how to create the transform-test project with Node.
 
 
 ## Contents
@@ -9,7 +9,6 @@ Here's how to create the search-test project with Node.
 - [Install Node Modules](#install-node-modules)
 - [Create Test Directory](#create-test-directory)
 - [Write the Tests](#write-the-tests)
-- [Start the Test Server](#start-the-test-server)
 - [Run the Tests](#run-the-tests)
 
 
@@ -17,11 +16,11 @@ Here's how to create the search-test project with Node.
 First, find a suitable directory for your projects.
 `cd ~/projects`
 
-Next, create the `search-test` directory and navigate there:
+Next, create the `transform-test` directory and navigate there:
 ```
-mkdir search-test
+mkdir transform-test
 
-cd search-test
+cd transform-test
 ```
 
 ## Create the Project with `npm init`
@@ -42,28 +41,28 @@ Use `npm install <pkg> --save` afterwards to install a package and
 save it as a dependency in the package.json file.
 
 Press ^C at any time to quit.
-name: (search-test)
+name: (transform-test)
 version: (1.0.0)
-description: JSON Search tests.
+description: JSON Transform tests.
 entry point: (index.js)
 test command: mocha test
 git repository:
-keywords: JSON, Search
+keywords: JSON, Search, Transform
 author: Me
 license: (ISC)
-About to write to /Users/tmarrs/projects/search-test/package.json:
+About to write to /Users/tmarrs/projects/transform-test/package.json:
 
 {
-  "name": "search-test",
+  "name": "transform-test",
   "version": "1.0.0",
-  "description": "JSON Search tests.",
+  "description": "JSON Transform tests.",
   "main": "index.js",
   "scripts": {
     "test": "mocha test"
   },
   "keywords": [
     "JSON",
-    "Search"
+    "Transform"
   ],
   "author": "Me",
   "license": "ISC"
@@ -78,10 +77,9 @@ Next, install the modules we'll need:
 ```
 npm install mocha --save
 npm install chai --save
-npm install request --save
-npm install jsonpath --save
-npm install json-pointer --save 
-npm install JSONSelect --save 
+npm install jsonfile --save
+npm install json-patch --save
+npm install jsonapter --save 
 ```
 
 ## Create Test Directory
@@ -92,15 +90,6 @@ mkdir test
 
 ## Write the Tests
 Now you're ready to start writing tests.
-
-
-## Start the Test Server
-Don't forget to run the test server.
-```
-cd /Users/tmarrs/projects/presentations/OSCON/2015/JSON-at-Work-Schema-Search-and-Transform/examples/test-server
-
-json-server -p 5000 ./airports.json
-```
 
 
 ## Run the Tests

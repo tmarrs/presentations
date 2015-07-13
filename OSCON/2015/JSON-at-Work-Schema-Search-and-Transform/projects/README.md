@@ -22,13 +22,13 @@ Create an [Espresso Drink order](https://github.com/tmarrs/presentations/blob/ma
 * Date/Time of the order
   * Date is in MM-DD-YYYY format
   * Time is in 24-hour HH:MM:SS format
-* [Payment](https://github.com/tmarrs/presentations/blob/master/OSCON/2015/JSON-at-Work-Schema-Search-and-Transform/projects/EspressoCON.md#payment):
+* [Payment](https://github.com/tmarrs/presentations/blob/master/OSCON/2015/JSON-at-Work-Schema-Search-and-Transform/projects/EspressoCON.md#payment-options):
   * EspressoCON Card ID
   * Total Price (in USD) - make this a number, and don't worry about the `$` sign. 
 
 Don't worry about:
 * Specialty Drinks
-* Constraints on the Date/Time of the order or the Payment.
+* Formatting constraints on the Date/Time of the order or for the Payment.
 
 Steps:
 * Model the data with [JSONPad](https://github.com/tmarrs/json-at-work/tree/master/appendix-a#installing-jsonpad):

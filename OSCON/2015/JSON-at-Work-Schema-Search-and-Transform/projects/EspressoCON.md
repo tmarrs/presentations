@@ -66,7 +66,7 @@ We'll use EspressoCON for our coding projects to develop JSON Schemas, and work 
 * Dirty Chai - Chai + an Espresso Shot [Not Allowed - just wrong]
 * Milky Way Latte - Mocha + Carmel Macchiato
 * Why Bother? - Decaf Latte + Small + Skim 
-* You Are Going To Die - Milky Way Latte + Bucket + Breve + Whip + Extra Carmel
+* You're Going To Die - Milky Way Latte + Bucket + Breve + Whip + Extra Carmel
 
 #### Options 
 * Whipped Cream
@@ -115,6 +115,6 @@ We'll use EspressoCON for our coding projects to develop JSON Schemas, and work 
 
 
 ## Payment Options
-* EspressoCON Card 
+* EspressoCON Card - The Card IDs are in [Canonical UUID format](https://en.wikipedia.org/wiki/Universally_unique_identifier#Definition).
 * Cash [Never]
 * Credit Card [Never]

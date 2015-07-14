@@ -1,0 +1,13 @@
+{
+  "order": {
+    "id": 427,
+    "customerName": "Fred Smith",
+    "drinkType": "Latte",
+    "size": "Large",
+    "date": "08-21-2015",
+    "time": "07:30:23",
+    "milk": "Non-Fat",
+    "espressoConCard": "123e4567-e89b-12d3-a456-426655440000",
+    "totalPrice": 5.00
+  }
+}

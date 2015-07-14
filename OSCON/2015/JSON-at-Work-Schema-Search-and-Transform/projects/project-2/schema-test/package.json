@@ -1,0 +1,20 @@
+{
+  "name": "schema-test",
+  "version": "1.0.0",
+  "description": "Schema Validation Test for Project 2.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "keywords": [
+    "JSON",
+    "Schema"
+  ],
+  "author": "Me",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^3.0.0",
+    "mocha": "^2.2.5",
+    "ujs-jsonvalidate": "^0.1.1"
+  }
+}

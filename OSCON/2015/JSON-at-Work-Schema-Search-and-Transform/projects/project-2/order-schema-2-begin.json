@@ -1,0 +1,79 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "order": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "customerName": {
+          "type": "string"
+        },
+        "drink": {
+          "type": "object",
+          "properties": {
+            "drinkType": {
+              "type": "string",
+              "enum": ["Latte", "Espresso", "Cappuccino",
+                "Chai", "Tea", "Steamer", "Hot Chocolate"
+              ]
+            },
+            "size": {
+              "type": "string",
+              "enum": ["Small", "Medium", "Large",
+                "Extra-Large", "Bucket"
+              ]
+            },
+            "milk": {
+              "type": "string",
+              "enum": ["Non-Fat", "Whole", "Breve", "Soy", "Almond"]
+            },
+            "flavor": {
+              "type": "string",
+              "enum": ["Carmel", "Chocolate", "Hazelnut",
+                "Vanilla", "Peppermint", "White Chocolate"
+              ]
+            }
+          },
+          "additionalProperties": false,
+          "required": ["drinkType", "size", "milk"]
+        },
+        "muffin": {
+          "type": "string",
+          "enum": ["Blueberry", "Double Berry Crumb", "Carrot Cake",
+            "Chocolate Chip", "Double Chocolate Chip",
+            "Cherry Cheesecake", "Cinnamon Cheesecake",
+            "Chocolate Cheesecake", "Banana Nut"
+          ]
+        },
+        "date": {
+          "type": "string"
+        },
+        "time": {
+          "type": "string"
+        },
+        "espressoConCard": {
+          "type": "string"
+        },
+        "totalPrice": {
+          "type": "integer"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "customerName",
+        "date",
+        "time",
+        "espressoConCard",
+        "totalPrice"
+      ]
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "order"
+  ]
+}

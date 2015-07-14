@@ -1,0 +1,16 @@
+{
+  "order": {
+    "id": 427,
+    "customerName": "Fred Smith",
+    "drink": {
+      "drinkType": "Latte",
+      "size": "Large",
+      "milk": "Skim"
+    },
+    "muffin": "Chocolate Chip",
+    "date": "08-21-2015",
+    "time": "07:30:23",
+    "espressoConCard": "123e4567-e89b-12d3-a456-426655440000",
+    "totalPrice": 5
+  }
+}

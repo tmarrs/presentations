@@ -57,7 +57,7 @@ We'll use EspressoCON for our coding projects to develop JSON Schemas, and work 
 * Small      - 12 oz
 * Medium     - 16 oz
 * Large      - 20 oz
-* Exra-Large - 32 oz
+* Extra-Large - 32 oz
 * Bucket     - 64 oz
 
 #### Specialty Drinks

@@ -147,11 +147,14 @@ We've modeled the Espresso Schema, and now it's time to test-drive the correspon
   ```
   * Visit `http://localhost:5000/orders` to see our list of EspressoCON orders.
 
-The solution is available at: 
-https://github.com/tmarrs/presentations/blob/master/OSCON/2015/JSON-at-Work-Schema-Search-and-Transform/projects/project-3
+The solution is available at: https://github.com/tmarrs/presentations/blob/master/OSCON/2015/JSON-at-Work-Schema-Search-and-Transform/projects/project-3
 
 
 ## Project 4 - JSON Search
 
+The solution is available at: https://github.com/tmarrs/presentations/blob/master/OSCON/2015/JSON-at-Work-Schema-Search-and-Transform/projects/project-4
+
 
 ## Project 5 - JSON Transform
+
+The solution is available at: https://github.com/tmarrs/presentations/blob/master/OSCON/2015/JSON-at-Work-Schema-Search-and-Transform/projects/project-5

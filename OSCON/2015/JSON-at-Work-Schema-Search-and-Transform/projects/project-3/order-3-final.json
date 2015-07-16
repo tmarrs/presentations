@@ -1,0 +1,17 @@
+{
+  "order": {
+    "id": 0,
+    "orderId": 1659,
+    "customerName": "Thomas Buck",
+    "drink": {
+      "drinkType": "Latte",
+      "size": "Large",
+      "milk": "Non-Fat"
+    },
+    "muffin": "Chocolate Cheesecake",
+    "date": "03-31-2015",
+    "time": "17:47:00",
+    "espressoConCard": "23654a8c-2994-47e5-9add-ff947a505663",
+    "totalPrice": "$35.15"
+  }
+}

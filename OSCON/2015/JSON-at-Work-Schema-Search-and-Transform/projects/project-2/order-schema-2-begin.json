@@ -5,7 +5,7 @@
     "order": {
       "type": "object",
       "properties": {
-        "id": {
+        "orderId": {
           "type": "integer"
         },
         "customerName": {
@@ -58,7 +58,7 @@
           "type": "string"
         },
         "totalPrice": {
-          "type": "integer"
+          "type": "number"
         }
       },
       "additionalProperties": false,

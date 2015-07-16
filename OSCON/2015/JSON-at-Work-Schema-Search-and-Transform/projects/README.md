@@ -59,7 +59,7 @@ https://github.com/tmarrs/presentations/blob/master/OSCON/2015/JSON-at-Work-Sche
 
 
 ## Project 2 - Schema Constraints and Conditional Content
-Let's wade in a bit deeper:
+We have a basic Schema for EspressoCON. Let's wade in a bit deeper:
 * Expand the JSON document so that a customer can order a [muffin](https://github.com/tmarrs/presentations/blob/master/OSCON/2015/JSON-at-Work-Schema-Search-and-Transform/projects/EspressoCON.md#muffins) and/or [bagel](https://github.com/tmarrs/presentations/blob/master/OSCON/2015/JSON-at-Work-Schema-Search-and-Transform/projects/EspressoCON.md#bagels) with their drink.
   * Group the drink-related keys (Drink Type, Flavor, Milk, and Size) into a `drink` object.
   * Please be sure to use an `enum` for the `muffin`. 
@@ -104,6 +104,51 @@ https://github.com/tmarrs/presentations/blob/master/OSCON/2015/JSON-at-Work-Sche
 
 
 ## Project 3 - API Modeling with Schema
+We've modeled the Espresso Schema, and now it's time to test-drive the corresponding API ... __without writing any code__:
+* Generate some sample data that conforms to the Schema.
+  * Take the JSON document that was created during [Project 2](#project-2---schema-constraints-and-conditional-content) so that you can use it as a sample.
+  * Visit: [JSON Generator](http://www.json-generator).
+  * We want to generate 3 records (Hint: Use `'{{repeat(3)}}'` to get 3 records).
+  * Don't worry about generating the `order` object itself. We're only concerned with the fields.
+  * Use the following pattern generators:
+    * `espressoConCard` -  `{{guid()}}`
+    * `orderId` - `{{integer(1, 40000)}}`
+    * `date` and `time` - `{{date ...}}`
+    * `totalPrice` - `{floating ...}}`
+    * `customerName` - `{{firstName()}} {{surname()}}` 
+    * Hard-code the following fields with values that fit the Schema:
+      * `drinkType: 'Latte'`
+      * `size: 'Large'`
+      * `milk: 'Non-Fat'`
+      * `muffin: 'Chocolate Cheesecake'`
+    * Everything else - `{{lorem ...}}`
+    * You'll need an object for `drink`.
+  * Press the `Generate` button and you'll see 3 new buttons on the right. Press the `Copy to clipboard` button and save the contents to the `orders.json` file.
+    * Optional: change `drinkType`, `size`, `milk`, `muffin` to other values that fit the Schema.
+  * You may want to save your template as a `.js` file for future reference.
+  * Don't forget to validate the contents of `orders.json`:
+    * Use [JSONLint](http://www.jsonlint.com) to check the document syntax.
+    * Use [JSON Validate](http://jsonvalidate.com/) to check against the following provided Schema:
+    ```
+    https://github.com/tmarrs/presentations/blob/master/OSCON/2015/JSON-at-Work-Schema-Search-and-Transform/projects/project-3/orders-schema-final.json
+    ```
+* Now deploy the JSON document as an API:
+  * Modify the `orders.json` so that we have the `/orders` route. You'll need to name the array of `orders` and wrap it in the JSON begin/end braces as follows:
+  ```
+  {
+    "orders": [
+    ...
+    ]
+  }
+  ```
+  * Run `json-server` as follows:
+  ```
+  json-server -p 5000 ./orders.json
+  ```
+  * Visit `http://localhost:5000/orders` to see our list of EspressoCON orders.
+
+The solution is available at: 
+https://github.com/tmarrs/presentations/blob/master/OSCON/2015/JSON-at-Work-Schema-Search-and-Transform/projects/project-3
 
 
 ## Project 4 - JSON Search

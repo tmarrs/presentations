@@ -1,0 +1,49 @@
+{
+  "orders": [
+    {
+      "id": 0,
+      "orderId": 8324,
+      "customerName": "Collins Horton",
+      "drink": {
+        "drinkType": "Latte",
+        "size": "Large",
+        "milk": "Non-Fat"
+      },
+      "muffin": "Chocolate Cheesecake",
+      "date": "04-23-2015",
+      "time": "20:49:05",
+      "espressoConCard": "c10e7a46-c9df-4da9-a38c-a403f485d1c1",
+      "totalPrice": "$55.37"
+    },
+    {
+      "id": 1,
+      "orderId": 7476,
+      "customerName": "Melba Hicks",
+      "drink": {
+        "drinkType": "Latte",
+        "size": "Large",
+        "milk": "Non-Fat"
+      },
+      "muffin": "Chocolate Cheesecake",
+      "date": "01-12-2015",
+      "time": "13:29:27",
+      "espressoConCard": "67a15b91-9f74-43e8-bb93-e1b618366975",
+      "totalPrice": "$86.56"
+    },
+    {
+      "id": 2,
+      "orderId": 9631,
+      "customerName": "Fitzgerald Fuller",
+      "drink": {
+        "drinkType": "Latte",
+        "size": "Large",
+        "milk": "Non-Fat"
+      },
+      "muffin": "Chocolate Cheesecake",
+      "date": "05-16-2015",
+      "time": "01:07:05",
+      "espressoConCard": "c5c13854-2387-483c-a743-1e1e78e7eafa",
+      "totalPrice": "$86.27"
+    }
+  ]
+}

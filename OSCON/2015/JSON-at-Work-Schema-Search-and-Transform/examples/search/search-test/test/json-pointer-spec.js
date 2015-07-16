@@ -13,7 +13,6 @@ describe('json-pointer', function() {
 			};
 			request.get(options, function(err, res, body) {
 				expect(res.statusCode).to.equal(200);
-				//console.log(res.body);
 				var obj = JSON.parse(res.body);
 				console.log('\n\n\n\nJSON Pointer Test');
 				console.log('\n\n1st Object: ');
@@ -24,5 +23,4 @@ describe('json-pointer', function() {
 			});
 		});
 	});
-
 });

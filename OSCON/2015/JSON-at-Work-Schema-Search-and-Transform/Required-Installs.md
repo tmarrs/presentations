@@ -31,8 +31,8 @@ Use github:
 git clone https://github.com/tmarrs/presentations.git
 ```
 
-Use the Zip file:
-Or, visit [https://github.com/tmarrs/presentations.git](https://github.com/tmarrs/presentations.git)
+Or, download the Zip file:
+visit [https://github.com/tmarrs/presentations.git](https://github.com/tmarrs/presentations.git)
 
 Then, download the Zip file and unzip it to your local disk.
 
@@ -40,7 +40,10 @@ Then, download the Zip file and unzip it to your local disk.
 After you [install the Example Code and Projects](#install-example-code-and-projects):
 
 ```
-cd OSCON/2015/JSON-at-Work-Schema-Search-and-Transform
+cd presentations/OSCON/2015/JSON-at-Work-Schema-Search-and-Transform
 ```
 
-From here, you'll see the `examples` and `projects` directories.
+From here, you'll see the following directories:
+* `slides` has the PDF of the slides.
+* `examples` has all the code listings in the slides.
+* `projects` has the problem descriptions for projects that you can work on. This includes the solutions, too.

@@ -28,7 +28,7 @@ Here are the tools to install:
      * Clone the repository: `git clone https://github.com/mattyod/matic-draft4-example`
      * Navigate to `matic-draft4-example`
      * Create the `schemas` directory if it doesn't exist.
-     * Copy your JSON Schema to the `schemas` directory.
+     * Copy your [JSON Schema](https://github.com/tmarrs/presentations/tree/master/OSCON/2015/JSON-at-Work-Schema-Search-and-Transform/examples/schema/api/speaker-verbose-schema.json) to the `schemas` directory.
      * Run Matic from the command line:
        ```
        matic

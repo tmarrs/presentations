@@ -1,0 +1,8 @@
+#!/usr/bin/env node
+
+var fs = require ('fs');
+var path = require ('path');
+
+var libpath = path.join (path.dirname (fs.realpathSync (__filename)), '../lib');
+var app = require (libpath + '/main.js')
+app.main ();

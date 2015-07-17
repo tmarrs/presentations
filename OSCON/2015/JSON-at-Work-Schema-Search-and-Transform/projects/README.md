@@ -140,6 +140,26 @@ The solution is available at: https://github.com/tmarrs/presentations/blob/maste
 
 
 ## Project 4 - JSON Search
+Let's search on the airports data with JSONPath and JSONPointer.
+* JSONPath
+  * Review the [JSONPath Syntax](http://goessner.net/articles/JsonPath/index.html#e2).
+  * Search for the following airport data:
+    * All California Airports (check the `state` field)
+    * All California Airport Codes (`IATA` is the airport code)
+    * All Airports with low visibility (e.g., `visibility < 10`)
+  * Try in an online tester:
+    * Copy the contents of the [`airports.json` file](https://github.com/tmarrs/presentations/blob/master/OSCON/2015/JSON-at-Work-Schema-Search-and-Transform/examples/test-server/airports.json) and paste it into the following online testers:
+      * [JSONPath - Curious Concept](http://jsonpath.curiousconcept.com/)
+        * __WARNING__ Don't press the Return button in the `JSONPath Expression` text box - it doesn't work.
+        * Rather, press the `Process` button and it works properly.
+      * [JSONPathOnlineEvaluator](http://ashphy.com/JSONPathOnlineEvaluator/) - this one is a bit more user-friendly.
+  * Extend the JSON Pointer Mocha/Chai spec that we saw earlier:
+    * Borrow the code from the [Search Examples](https://github.com/tmarrs/presentations/blob/master/OSCON/2015/JSON-at-Work-Schema-Search-and-Transform/examples/search/search-test)
+    * Add the additional JSONPath queries at the end of the test.
+  * Caveats:
+    * When testing for equality, use `==`, but _not_ `=`
+    * In the tester, start your JSONPath expressions with `$.airports`
+    * In the Mocha/Chai specs, start your JSONPath expressions with `$` (i.e., omit `.airports`).
 
 The solution is available at: https://github.com/tmarrs/presentations/blob/master/OSCON/2015/JSON-at-Work-Schema-Search-and-Transform/projects/project-4
 

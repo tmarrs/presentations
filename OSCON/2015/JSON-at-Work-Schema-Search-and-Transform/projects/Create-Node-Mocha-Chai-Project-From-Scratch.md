@@ -16,4 +16,6 @@ Create a Node Project with Mocha and Chai from Scratch
 npm install mocha --save
 npm install chai --save
 ```
+* Install any node modules with `npm install --save`
 * Create a `test` directory for the specs.
+* Write te specs in the `test` directory.

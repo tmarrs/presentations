@@ -75,24 +75,13 @@ We have a basic Schema for EspressoCON. Let's wade in a bit deeper:
     * Use [Regexp101](https://regex101.com/) for online testing.
     * Search the web for example Regular Expressions.
 * Add a Mocha/Chai spec to validate the JSON Document against the Schema:
-  * Create a Node project as follows:
-    * First, find a suitable directory for your projects.
-      `cd ~/projects`
-    * Create the `search-test` directory and navigate there:
-      ```
-      mkdir search-test
-
-      cd search-test
-      ```
-    * Use `npm init` to create your Node project.
-      * Enter `mocha test` at the `test command` prompt.
-      * Use defaults everywhere else.
-    * Add npm modules:
-    ```
-    npm install mocha --save
-    npm install chai --save
-    ```
-    * Create a `test` directory for the spec.
+  * Create a Node project as follows: 
+    * Create a new directory called `schema-test`
+    * Copy the following from the [Project 2 solutions directory](https://github.com/tmarrs/presentations/blob/master/OSCON/2015/JSON-at-Work-Schema-Search-and-Transform/projects/project-2/schema-test)
+      * The `node_modules` directory.
+      * `package.json`
+    * We're trying to avoid doing a big `npm install` so we don't flood the WiFi, 
+      but if all else fails, then follow the instructions for [creating a Node project with Mocha and Chai from scratch](https://github.com/tmarrs/presentations/blob/master/OSCON/2015/JSON-at-Work-Schema-Search-and-Transform/projects/Create-Node-Mocha-Chai-Project-From-Scratch.md).
   * Create a Mocha/Chai spec (in the `test` directory):
     * Add the [`ujs-jsonvalidate`](https://github.com/usingjsonschema/ujs-jsonvalidate-nodejs) npm module to validate the JSON document against the Schema.
     * [Chai's `expect` style Assertions](http://chaijs.com/guide/styles/)

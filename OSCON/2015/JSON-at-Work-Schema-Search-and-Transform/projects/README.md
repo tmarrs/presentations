@@ -155,7 +155,7 @@ Let's search on the airports data with JSONPath and JSONPointer.
       * [JSONPathOnlineEvaluator](http://ashphy.com/JSONPathOnlineEvaluator/) - this one is a bit more user-friendly.
   * Extend the JSONPath Mocha/Chai spec that we saw earlier:
     * Borrow the code from the [Search Examples](https://github.com/tmarrs/presentations/blob/master/OSCON/2015/JSON-at-Work-Schema-Search-and-Transform/examples/search/search-test)
-    * Add the additional JSONPath queries at the end of the test.
+    * Add the additional JSONPath queries at the end of the `json-path-spec.js` spec.
   * Caveats:
     * When testing for equality, use `==`, but _not_ `=`
     * In the tester, start your JSONPath expressions with `$.airports`
@@ -168,7 +168,7 @@ Let's search on the airports data with JSONPath and JSONPointer.
      * [JSON Pointer Tester](http://www.jsonpointer.com) 
   * Extend the JSON Pointer Mocha/Chai spec that we saw earlier:
     * Borrow the code from the [Search Examples](https://github.com/tmarrs/presentations/blob/master/OSCON/2015/JSON-at-Work-Schema-Search-and-Transform/examples/search/search-test)
-    * Add the additional JSON Pointer queries at the end of the test.
+    * Add the additional JSON Pointer queries at the end of the `json-pointer-spec.js` spec.
   * Caveats:
     * In the tester, start your JSON Pointer expressions with `/airports`
     * In the Mocha/Chai specs, start your JSON Pointer expressions with `/` (i.e., omit `airports`).
@@ -185,7 +185,7 @@ Let's add some new JSON Patch operations to further modify our `speaker`.
     * [Intro to JSON Patch](http://slides.com/warpech/introduction-to-json-patch#/).
 * Extend the JSON Patch Mocha/Chai spec that we saw earlier:
   * Borrow the code from the [Transform Examples](https://github.com/tmarrs/presentations/blob/master/OSCON/2015/JSON-at-Work-Schema-Search-and-Transform/examples/transform/transform-test)
-  * Add the additional JSON Patch operations at the end of the `template` array.
+  * Add the additional JSON Patch operations at the end of the `template` array in `json-patch-spec.js`.
 
 
 The solution is available at: https://github.com/tmarrs/presentations/blob/master/OSCON/2015/JSON-at-Work-Schema-Search-and-Transform/projects/project-5

@@ -150,7 +150,7 @@ Let's search on the airports data with JSONPath and JSONPointer.
   * Try in an online tester:
     * Copy the contents of the [`airports.json` file](https://github.com/tmarrs/presentations/blob/master/OSCON/2015/JSON-at-Work-Schema-Search-and-Transform/examples/test-server/airports.json) and paste it into the following online testers:
       * [JSONPath - Curious Concept](http://jsonpath.curiousconcept.com/)
-        * __WARNING__ Don't press the Return button in the `JSONPath Expression` text box - it doesn't work.
+        * __WARNING__ - Don't press the Return button in the `JSONPath Expression` text box - it doesn't work.
         * Rather, press the `Process` button and it works properly.
       * [JSONPathOnlineEvaluator](http://ashphy.com/JSONPathOnlineEvaluator/) - this one is a bit more user-friendly.
   * Extend the JSONPath Mocha/Chai spec that we saw earlier:

@@ -96,7 +96,7 @@ https://github.com/tmarrs/presentations/blob/master/OSCON/2015/JSON-at-Work-Sche
 We've modeled the Espresso Schema, and now it's time to test-drive the corresponding API ... __without writing any code__:
 * Generate some sample data that conforms to the Schema.
   * Take the JSON document that was created during [Project 2](#project-2---schema-constraints-and-conditional-content) so that you can use it as a sample.
-  * Visit: [JSON Generator](http://www.json-generator).
+  * Visit: [JSON Generator](http://www.json-generator.com/).
   * We want to generate 3 records (Hint: Use `'{{repeat(3)}}'` to get 3 records).
   * Don't worry about generating the `order` object itself. We're only concerned with the fields.
   * Use the following pattern generators:

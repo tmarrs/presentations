@@ -51,7 +51,7 @@ git clone https://github.com/tmarrs/presentations.git
 Or, download the Zip file:
 visit [https://github.com/tmarrs/presentations.git](https://github.com/tmarrs/presentations.git)
 
-Then, download the Zip file and unzip it to your local disk.
+Then, press the `Download ZIP` button to download the Zip file and unzip it to your local disk.
 
 ## Find the Example Code and Projects
 After you [install the Example Code and Projects](#install-example-code-and-projects):

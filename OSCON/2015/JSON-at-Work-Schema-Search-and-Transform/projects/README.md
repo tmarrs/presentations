@@ -177,5 +177,15 @@ The solution is available at: https://github.com/tmarrs/presentations/blob/maste
 
 
 ## Project 5 - JSON Transform
+Let's add some new JSON Patch operations to further modify our `speaker`.
+* New JSON Patch operations
+  * Use the `move` operation to rename the `about` field to `bio`.
+  * Use the `replace` operation to change the value of the `email` field to `fred.smith@acme.com`.
+  * For examples, please visit:
+    * [Intro to JSON Patch](http://slides.com/warpech/introduction-to-json-patch#/).
+* Extend the JSON Patch Mocha/Chai spec that we saw earlier:
+  * Borrow the code from the [Transform Examples](https://github.com/tmarrs/presentations/blob/master/OSCON/2015/JSON-at-Work-Schema-Search-and-Transform/examples/transform/transform-test)
+  * Add the additional JSON Patch operations at the end of the `template` array.
+
 
 The solution is available at: https://github.com/tmarrs/presentations/blob/master/OSCON/2015/JSON-at-Work-Schema-Search-and-Transform/projects/project-5

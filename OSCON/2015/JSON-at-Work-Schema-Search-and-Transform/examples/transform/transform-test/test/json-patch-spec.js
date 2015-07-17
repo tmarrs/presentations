@@ -15,10 +15,11 @@ describe('json-patch', function() {
       
       jsonfile.readFile(jsonFileName, function(err, jsonObj) {
         if (!err) {
+    			console.log('\n\n\n\Original JSON');
           console.log(jsonObj);
           console.log('\n\n\n\JSONPatch Test');
     			var output = jsonpatch.apply(jsonObj, template);
-    			console.log('\n\n\n\Patch JSON');
+    			console.log('\n\n\n\Patched JSON');
     			console.log(JSON.stringify(output));
         }
   			done();

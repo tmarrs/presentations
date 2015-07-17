@@ -18,6 +18,23 @@ Here are the tools to install:
     * [`ujs-validate`](https://github.com/tmarrs/json-at-work/tree/master/appendix-a#install-ujs-validate)
     * [`tinyserver`](https://github.com/tmarrs/json-at-work/tree/master/appendix-a#install-tinyserver)
     * [`json-server`](https://github.com/tmarrs/json-at-work/tree/master/appendix-a#install-json-server)
+    * [Matic](https://github.com/mattyod/matic-draft4-example)
+      * Install `matic` and `jade`
+        ```
+        npm install -g matic
+    
+        npm install -g jade
+        ```
+     * Clone the repository: `git clone https://github.com/mattyod/matic-draft4-example`
+     * Navigate to `matic-draft4-example`
+     * Create the `schemas` directory if it doesn't exist.
+     * Copy your JSON Schema to the `schemas` directory.
+     * Run Matic from the command line:
+       ```
+       matic
+       ```
+     * You'll find the generated documentation in the `web` directory.
+     * Display the `index.html` file in your browser and you'll see the Schema documentation.
   * [Yeoman](https://github.com/tmarrs/json-at-work/tree/master/appendix-a#installing-yeoman)
     * [Yeoman `webapp` generator](https://github.com/tmarrs/json-at-work/tree/master/appendix-a#installing-the-webapp-yeoman-generator)
 * [`jq`](https://github.com/tmarrs/json-at-work/tree/master/appendix-a#installing-jq)

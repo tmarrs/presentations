@@ -75,6 +75,10 @@ We have a basic Schema for EspressoCON. Let's wade in a bit deeper:
     * Use [Regexp101](https://regex101.com/) for online testing.
     * Search the web for example Regular Expressions.
 * Add a Mocha/Chai spec to validate the JSON Document against the Schema:
+  * Visit the following sites for the basics of Mocha/Chai testing:
+    * [Chai site](http://chaijs.com/)
+    * [JavaScript Testing with Grunt, Mocha and Chai](https://gist.github.com/maicki/7781943)
+    * [Basic Front End Testing with Mocha and Chai](http://callmenick.com/post/basic-front-end-testing-with-mocha-chai)
   * Create a Node project as follows: 
     * Create a new directory called `schema-test`
     * Copy the following from the [Project 2 solutions directory](https://github.com/tmarrs/presentations/blob/master/OSCON/2015/JSON-at-Work-Schema-Search-and-Transform/projects/project-2/schema-test)

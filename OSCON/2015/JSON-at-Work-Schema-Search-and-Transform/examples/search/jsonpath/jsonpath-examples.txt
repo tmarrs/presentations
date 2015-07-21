@@ -1,0 +1,9 @@
+$.airports
+
+$.airports[0,2].weather
+
+$.airports[?(@.state=="California")]
+
+$.airports[?(@.state=="California")].IATA
+
+$.airports[?(@.weather.visibility < 10)].name

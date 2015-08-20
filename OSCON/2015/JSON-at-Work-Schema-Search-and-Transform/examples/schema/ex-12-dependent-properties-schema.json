@@ -15,8 +15,7 @@
 			"type": "array",
 			"items": {
 				"type": "string"
-			},
-			"additionalItems": false
+			}
 		},
 		"favoriteTopic": {
 			"type": "string"
@@ -25,6 +24,6 @@
 	"additionalProperties": false,
 	"required": ["email", "firstName", "lastName"],
 	"dependencies": {
-		"tags": ["favoriteTopic"]
+		"favoriteTopic": ["tags"]
 	}
 }

@@ -11,8 +11,7 @@
 				"enum": [
 					"Open Source", "Java", "JavaScript", "JSON", "REST"
 				]
-			},
-			"additionalItems": false
+			}
 		}
 	},
 	"additionalProperties": false,

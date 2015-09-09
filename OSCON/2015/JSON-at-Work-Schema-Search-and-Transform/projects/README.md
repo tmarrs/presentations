@@ -31,7 +31,7 @@ Don't worry about:
 * Formatting constraints on the Date/Time of the order or for the Payment.
 
 Steps:
-* Model the data with [JSONPad](https://github.com/tmarrs/json-at-work/tree/master/appendix-a#installing-jsonpad):
+* Model the data with [JSONPad](https://github.com/tmarrs/json-at-work-examples/tree/master/appendix-a#installing-jsonpad):
  * Use the the green `+` button to add elements.
  * Press the blue arrow button (under Tree) to generate the JSON document.
  * Copy the JSON Document to your clipboard.
@@ -64,7 +64,7 @@ We have a basic Schema for EspressoCON. Let's wade in a bit deeper:
   * Group the drink-related keys (Drink Type, Flavor, Milk, and Size) into a `drink` object.
   * Please be sure to use an `enum` for the `muffin`. 
   * Don't forget to go through the same process in [Project 1](#project-1---schema-modeling-and-basic-types) with:
-    * [JSONPad](https://github.com/tmarrs/json-at-work/tree/master/appendix-a#installing-jsonpad)
+    * [JSONPad](https://github.com/tmarrs/json-at-work-examples/tree/master/appendix-a#installing-jsonpad)
     * [JSONLint](http://jsonlint.com)
     * [JSONSchema.net](http://jsonschema.net)
     * [JSON Validate](http://jsonvalidate.com/)

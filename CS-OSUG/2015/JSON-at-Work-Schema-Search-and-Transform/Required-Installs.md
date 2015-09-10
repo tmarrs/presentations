@@ -10,15 +10,15 @@ Here are the tools and example code to install coming to this session.
 
 ## Install Tools
 Here are the tools to install:
-* [JSONView in Chrome and/or Firefox](https://github.com/tmarrs/json-at-work/tree/master/appendix-a#installing-jsonview-in-chrome-and-firefox)
-* [JSONPad](https://github.com/tmarrs/json-at-work/tree/master/appendix-a#installing-jsonpad)
-* [Node.js](https://github.com/tmarrs/json-at-work/tree/master/appendix-a#installing-nodejs)
+* [JSONView in Chrome and/or Firefox](https://github.com/tmarrs/json-at-work-examples/tree/master/appendix-a#installing-jsonview-in-chrome-and-firefox)
+* [JSONPad](https://github.com/tmarrs/json-at-work-examples/tree/master/appendix-a#installing-jsonpad)
+* [Node.js](https://github.com/tmarrs/json-at-work-examples/tree/master/appendix-a#installing-nodejs)
   * npm Modules:
-    * [`jsonlint`](https://github.com/tmarrs/json-at-work/tree/master/appendix-a#install-jsonlint)
-    * [`ujs-validate`](https://github.com/tmarrs/json-at-work/tree/master/appendix-a#install-ujs-validate)
-    * [`tinyserver`](https://github.com/tmarrs/json-at-work/tree/master/appendix-a#install-tinyserver)
-    * [`http-server`](https://github.com/tmarrs/json-at-work/tree/master/appendix-a#install-http-server)
-    * [`json-server`](https://github.com/tmarrs/json-at-work/tree/master/appendix-a#install-json-server)
+    * [`jsonlint`](https://github.com/tmarrs/json-at-work-examples/tree/master/appendix-a#install-jsonlint)
+    * [`ujs-validate`](https://github.com/tmarrs/json-at-work-examples/tree/master/appendix-a#install-ujs-validate)
+    * [`tinyserver`](https://github.com/tmarrs/json-at-work-examples/tree/master/appendix-a#install-tinyserver)
+    * [`http-server`](https://github.com/tmarrs/json-at-work-examples/tree/master/appendix-a#install-http-server)
+    * [`json-server`](https://github.com/tmarrs/json-at-work-examples/tree/master/appendix-a#install-json-server)
     * [Matic](https://github.com/mattyod/matic-draft4-example)
       * Install `matic` and `jade`
         ```
@@ -36,10 +36,10 @@ Here are the tools to install:
        ```
      * You'll find the generated documentation in the `web` directory.
      * Display the `index.html` file in your browser and you'll see the Schema documentation.
-  * [Yeoman](https://github.com/tmarrs/json-at-work/tree/master/appendix-a#installing-yeoman)
-    * [Yeoman `webapp` generator](https://github.com/tmarrs/json-at-work/tree/master/appendix-a#installing-the-webapp-yeoman-generator)
-* [`jq`](https://github.com/tmarrs/json-at-work/tree/master/appendix-a#installing-jq)
-  * [`cURL`](https://github.com/tmarrs/json-at-work/tree/master/appendix-a#installing-curl)
+  * [Yeoman](https://github.com/tmarrs/json-at-work-examples/tree/master/appendix-a#installing-yeoman)
+    * [Yeoman `webapp` generator](https://github.com/tmarrs/json-at-work-examples/tree/master/appendix-a#installing-the-webapp-yeoman-generator)
+* [`jq`](https://github.com/tmarrs/json-at-work-examples/tree/master/appendix-a#installing-jq)
+  * [`cURL`](https://github.com/tmarrs/json-at-work-examples/tree/master/appendix-a#installing-curl)
 
 ## Install Example Code and Projects
 Install the example code as follows:

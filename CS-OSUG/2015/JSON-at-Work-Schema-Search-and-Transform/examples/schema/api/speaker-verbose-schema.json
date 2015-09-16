@@ -1,0 +1,69 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"id": "/",
+	"type": "object",
+	"title": "Speaker schema.",
+	"description": "Verbose version of the Speaker schema.",
+	"name": "/",
+	"properties": {
+		"about": {
+			"id": "about",
+			"type": "string",
+			"title": "About schema.",
+			"description": "The speaker's bio.",
+			"name": "about"
+		},
+		"email": {
+			"id": "email",
+			"type": "string",
+			"title": "Email schema.",
+			"description": "The speaker's email.",
+			"name": "email"
+		},
+		"firstName": {
+			"id": "firstName",
+			"type": "string",
+			"title": "FirstName schema.",
+			"description": "The speaker's first name.",
+			"name": "firstName"
+		},
+		"lastName": {
+			"id": "lastName",
+			"type": "string",
+			"title": "LastName schema.",
+			"description": "The speaker's last name.",
+			"name": "lastName"
+		},
+		"tags": {
+			"id": "tags",
+			"type": "array",
+			"title": "Tags schema.",
+			"description": "The Tags for the speaker (e.g., JSON, REST, etc.)",
+			"name": "tags",
+			"items": {
+				"id": "2",
+				"type": "string",
+				"title": "2 schema.",
+				"description": "An explanation about the puropose of this instance described by this schema.",
+				"name": "2"
+			},
+			"additionalItems": false
+		},
+		"company": {
+			"id": "company",
+			"type": "string",
+			"title": "Company schema.",
+			"description": "The speaker's company.",
+			"name": "company"
+		}
+	},
+	"additionalProperties": false,
+	"required": [
+		"about",
+		"email",
+		"firstName",
+		"lastName",
+		"tags",
+		"company"
+	]
+}

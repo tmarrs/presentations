@@ -18,4 +18,4 @@ npm install chai --save
 ```
 * Install any node modules with `npm install --save`
 * Create a `test` directory for the specs.
-* Write te specs in the `test` directory.
+* Write the specs in the `test` directory.

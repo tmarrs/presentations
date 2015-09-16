@@ -2,6 +2,8 @@ $.airports
 
 $.airports[0,2].weather
 
+$.airports[0:2].weather
+
 $.airports[?(@.state=="California")]
 
 $.airports[?(@.state=="California")].IATA

@@ -10,15 +10,17 @@ Here are the tools and example code to install coming to this session.
 
 ## Install Tools
 Here are the tools to install:
-* [JSONView in Chrome and/or Firefox](https://github.com/tmarrs/json-at-work-examples/tree/master/appendix-a#installing-jsonview-in-chrome-and-firefox)
-* [Node.js](https://github.com/tmarrs/json-at-work-examples/tree/master/appendix-a#installing-nodejs)
+* [JSONView in Chrome and Firefox](https://github.com/tmarrs/json-at-work-examples/tree/master/appendix-a#install-jsonview-in-chrome-and-firefox)
+* [JSONLint](https://github.com/tmarrs/json-at-work-examples/tree/master/appendix-a#jsonlint)
+* [JSONEditor Online](https://github.com/tmarrs/json-at-work-examples/tree/master/appendix-a#json-editor-online)
+* [Postman](https://github.com/tmarrs/json-at-work-examples/tree/master/appendix-a#install-postman)
+* [Node.js](https://github.com/tmarrs/json-at-work-examples/tree/master/appendix-a#install-node)
   * npm Modules:
     * [`jsonlint`](https://github.com/tmarrs/json-at-work-examples/tree/master/appendix-a#install-jsonlint)
     * [`json-server`](https://github.com/tmarrs/json-at-work-examples/tree/master/appendix-a#install-json-server)
-* [`jq`](https://github.com/tmarrs/json-at-work-examples/tree/master/appendix-a#installing-jq)
-  * [`cURL`](https://github.com/tmarrs/json-at-work-examples/tree/master/appendix-a#installing-curl)
+* [`jq`](https://github.com/tmarrs/json-at-work-examples/tree/master/appendix-a#install-jq)
+* [`cURL`](https://github.com/tmarrs/json-at-work-examples/tree/master/appendix-a#install-curl)
 
-FIXME: point to JSON At Work Appendix A. Double-check all links.
 
 ## Install Example Code and Projects
 Install the example code as follows:

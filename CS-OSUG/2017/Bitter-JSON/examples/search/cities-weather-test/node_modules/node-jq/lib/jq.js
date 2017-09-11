@@ -1,0 +1,38 @@
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.run = undefined;
+
+var _exec = require('./exec');
+
+var _exec2 = _interopRequireDefault(_exec);
+
+var _command = require('./command');
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var run = exports.run = function run(filter, json) {
+  var options = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
+
+  return new Promise(function (resolve, reject) {
+    var _commandFactory = (0, _command.commandFactory)(filter, json, options),
+        command = _commandFactory.command,
+        args = _commandFactory.args;
+
+    (0, _exec2.default)(command, args).then(function (stdout) {
+      if (options.output === 'json') {
+        var result = void 0;
+        try {
+          result = JSON.parse(stdout);
+        } catch (error) {
+          result = stdout;
+        }
+        return resolve(result);
+      } else {
+        return resolve(stdout);
+      }
+    }).catch(reject);
+  });
+};

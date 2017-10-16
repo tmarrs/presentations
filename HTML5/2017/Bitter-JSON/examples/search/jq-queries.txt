@@ -1,0 +1,17 @@
+
+jq query Description
+--------------------
+.cities[0]            Get the first city. jq Array filtering starts at 0.
+.cities[-1]           Get the last city. An index of -1 indicates the last element of an Array.
+.cities[0:3]          Get the first three cities, where 0 is the start index (inclusive), and 3 is the end
+                      index (exclusive).
+
+.cities[:3]           Get the first three cities. This is shorthand, and it omits the start index.
+
+[.cities[:3] | .[] | {name, weather}]
+                      Get the name and weather for the first 3 cities and put it in a new array.
+
+.cities[] | select (.main.temp >= 80 and (.main.temp_min >= 79 and .main.temp_max <= 92))
+                      Get all cities whose current temperature is >= 80 degrees Fahrenheit and whose
+                      min and max temperature ranges between 79 and 92 degrees Fahrenheit
+                      (inclusive).

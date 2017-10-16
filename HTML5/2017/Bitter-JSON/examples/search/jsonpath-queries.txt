@@ -1,0 +1,21 @@
+JSONPath query                  Description
+-------------------------------------------
+$.cities                        Get all elements in the cities Array.
+$.cities.length                 Get the number of elements in the cities Array.
+$.cities[0::2]                  Get every other element in the cities array.
+
+$.cities[(@.length-1)]          Get the last element in the cities Array.
+
+$..weather                      Get all weather subelements.
+$.cities[:3]                    Get the first three elements in cities Array.
+$.cities[:3].name               Get the city name for first three elements in the cities Array.
+$.cities[?(@.main.temp > 84)]   Get the cities where the temp > 84.
+
+$.cities[?(@.main.temp >= 84 && @.main.temp <= 85.5)]
+                                Get the cities where the temp is between 84 and 85.5.
+
+$.cities[?(@.weather[0].main == 'Clouds')]
+                                Get the cities with cloudy weather.
+
+$.cities[?(@.weather[0].main.match(/Clo/))]
+                                Get the cities with cloudy weather by using regex.

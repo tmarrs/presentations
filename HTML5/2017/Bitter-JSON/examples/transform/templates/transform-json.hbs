@@ -1,0 +1,23 @@
+{
+  "cities": [
+    {{#each cities}}
+      {
+        "id": "{{id}}",
+        "name": "{{name}}",
+        "weather": {
+          {{#main}}
+          "currentTemp": {{temp}},
+          "lowTemp": {{temp_min}},
+          "hiTemp": {{temp_max}},
+          "humidity": {{humidity}},
+          {{/main}}
+          "windSpeed": {{wind.speed}},
+          {{#each weather}}
+          "summary": "{{main}}",
+          "description": "{{description}}"
+          {{/each}}
+        }
+      }{{#unless @last}},{{/unless}}
+    {{/each}}
+  ]
+}

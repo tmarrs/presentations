@@ -39,7 +39,7 @@ Then, press the `Download ZIP` button to download the Zip file and unzip it to y
 After you [install the Example Code and Projects](#install-example-code-and-projects):
 
 ```
-cd presentations/CS-OSUG/2017/Bitter-JSON
+cd presentations/HTML5/2017/Bitter-JSON
 ```
 
 From here, you'll see the following directories:
